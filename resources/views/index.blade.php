@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact Form</title>
+    <title>Laravel Task</title>
     <style>
         body { font-family: sans-serif; max-width: 600px; margin: auto; }
         form div { margin-bottom: 10px; }
@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<h2>Contact Form</h2>
+<h2>Laravel Task</h2>
 
 @if(session('success'))
     <p class="success">{{ session('success') }}</p>
